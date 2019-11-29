@@ -1,0 +1,10 @@
+<div class="container">
+    <header class="jumbotron">
+        <h1 class="display-9">
+            <strong>{{currentUser.username | titlecase}}</strong>, Welcome to Book Meeting Room.
+        </h1>
+    </header>
+    <button class="btn btn-danger">
+        <a class="btn  btn-link log-out" (click)="logOut()">Logout</a>
+    </button>
+</div>
